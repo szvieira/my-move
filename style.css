@@ -42,6 +42,7 @@ header {
     font-size: 13px;
     font-weight: 700;
 }
+
 .left-header a {
     color: white;
 }
@@ -49,6 +50,7 @@ header {
 header img {
     height: 5em;
 }
+
 
 /**MAIN */
 
@@ -112,8 +114,35 @@ footer {
     margin-top: 1em;
 }
 
+
 /** ABOUT **/
 
-.ctn-h1-h2{
+.ctn-h1-h2 {
     text-align: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.ctn-h1-h2 h2 {
+    margin-top: 1em;
+    font-size: 32px;
+}
+
+.ctn-link-hosp {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.ctn-link-hosp a {
+    color: #00A8CD;
+}
+
+.ctn-text p {
+    padding: 1em 0 1em 0;
+}
+
+#main-about {
+    height: 56vh;
+    margin-bottom: 10em;
 }
