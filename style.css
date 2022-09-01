@@ -80,6 +80,13 @@ main {
     margin-bottom: 6em;
 }
 
+#main-app{
+    margin-bottom: 16em;
+}
+#main-about {
+    height: 56vh;
+    margin-bottom: 12em;
+}
 /* FOOTER */
 
 footer {
@@ -145,7 +152,3 @@ footer {
     padding: 1em 0 1em 0;
 }
 
-#main-about {
-    height: 56vh;
-    margin-bottom: 10em;
-}
